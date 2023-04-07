@@ -1,0 +1,39 @@
+.task-box{
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 800px;
+  .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #DDD;
+      padding-bottom: 10px;
+      .title {
+        font-size: 20px;
+        line-height: 50px;
+
+      }
+    }
+  .tag-box {
+    margin: 15px 0;
+    .ant-tag {
+      border-radius: 0;
+      margin-inline-end: 20px;
+      padding-inline: 10px;
+      font-size: 14px;
+      line-height: 30px;
+      cursor: pointer;
+    }
+  }
+}
+
+.ant-btn-link {
+  padding: 4px;
+}
+.ant-input,
+.ant-pick {
+  border-radius: 0;
+}
+textarea {
+  resize: none !important;
+}
